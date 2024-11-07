@@ -56,7 +56,7 @@ services:
           tasks:
             tmpDir:
               path: /tmp/kestra-wd/tmp
-          url: http://localhost:8080/
+          url: https://kestra.sbazar.in
     ports:
       - "8087:8087"
       - "8088:8088"
