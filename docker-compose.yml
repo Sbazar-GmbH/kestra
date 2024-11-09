@@ -57,8 +57,8 @@ services:
               path: /tmp/kestra-wd/tmp
           url: https://kestra.sbazar.in:8087 # Ensure this is correct and reachable.
     ports:
-      - "8087:8087"
-      - "8088:8088"
+      - "8087:8080"
+      - "8088:8081"
     depends_on:
       postgres:
         condition: service_healthy
