@@ -55,7 +55,7 @@ services:
           tasks:
             tmpDir:
               path: /tmp/kestra-wd/tmp
-          url: https://kestra.sbazar.in # Ensure this is correct and reachable.
+          url: https://kestra.sbazar.in:8087 # Ensure this is correct and reachable.
     ports:
       - "8087:8087"
       - "8088:8088"
